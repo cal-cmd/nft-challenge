@@ -1,4 +1,4 @@
-Contract Address `0xB97F292dD0248fAe9D0A6b13C3ec92db9e4e5BbE`
+Contract Address is `0x37c744c102dd1e6460cbcb769fed62618efa2436`
 
 # .env setup
 `PRIVATE_KEY=` Wallet private key (not seed)
@@ -13,4 +13,4 @@ Contract Address `0xB97F292dD0248fAe9D0A6b13C3ec92db9e4e5BbE`
 
 3 - `npx hardhat test`
 
-4 - `npx hardhat run scripts/deploy.js --network ropsten` (Make sure wallet has funds)
+4 - `npx hardhat run scripts/deploy.js --network rinkeby` (Make sure wallet has funds)
