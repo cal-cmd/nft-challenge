@@ -117,8 +117,8 @@ contract NFTLottery is ERC721URIStorage, VRFConsumerBase, Ownable {
 
     /// @notice Called by owner to draw winner with chainlink VRF
     function drawWinner() external onlyOwner {
-        getRandomNumber();
-        // fakeRandomNumber();
+        // getRandomNumber();
+        fakeRandomNumber();
     }
 
     /// @notice Called by owner to start new auction
