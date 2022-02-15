@@ -11,7 +11,7 @@ const ALCHEMY_API_KEY = process.env.ALCHEMY_KEY;
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
-
+const ETHERSCAN_KEY = process.env.ETHERSCAN_KEY;
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -27,7 +27,7 @@ module.exports = {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: "2BS17ZNN4ZANWHXXS6R9I9PE9VPHVSPWHA"
+    apiKey: {ETHERSCAN_KEY}
   },
   mocha: {
     timeout: 100000
